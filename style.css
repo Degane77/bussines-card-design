@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.business-card {
+    width: 400px;
+    height: 200px;
+    background-color: #0f3460;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow: hidden;
+    color: #fff;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #16213e, #1a1a2e);
+}
+
+.image-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #00aaff;
+}
+
+.info-section {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 .highlight {
+    color: #00aaff;
+}
+
+.role {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin: 5px 0 15px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #00aaff;
+}
